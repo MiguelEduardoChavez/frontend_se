@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notificaciones</title>
+</head>
+<body>
+	<button type="button" onclick="notificar()">Enviar notificaciones</button>
+	<script type="text/javascript">
+		document.addEventListener("DOMContetntLoaded", function(){
+			if (Notification) {
+				alert("las notificaciones o algo así no son soportadas en tu navegador");
+			return;
+			}
+			if (Notification.perrmission !== "granted")
+				Notification.requestPermission();
+		});
+
+		function notificar() {
+			if (Notification.perrmission  !== "granted") {
+				Notification.requestPermission();
+			}else{
+				var notificacion = new Notification("Titulo de mi noti",
+					{
+						icon: "https://www.freeiconspng.com/uploads/team-icon-21.png",
+						body: "Contenido de la notificacion"
+					});
+				notificacion.onclick = function(){
+					window.open("https://www.youtube.com/watch?v=HT5zlHY6V2o");
+				}
+			}
+	
+		}
+	</script>
+</body>
+</html>

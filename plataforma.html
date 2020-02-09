@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8"/>
+<title>Plataforma</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link rel="stylesheet" href="css/gaci.css">
+
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
+<link href="css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<link href="css/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="css/components-md.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="css/plugins-md.css" rel="stylesheet" type="text/css"/>
+<link href="css/layout.css" rel="stylesheet" type="text/css"/>
+<link id="style_color" href="css/light2.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+
+<link href="css/plugins/fileinput/fileinput.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/plugins/fileinput/theme.css" media="all" rel="stylesheet" type="text/css"/>
+
+<!-- END THEME STYLES -->
+</head>
+
+<body class="body page-md page-header-fixed page-quick-sidebar-over-content page-header-fixed-mobile sin-scroll">
+<!-- BEGIN HEADER -->
+<div class="page-header md-shadow-z-1-i navbar navbar-fixed-top">
+	<!-- BEGIN HEADER INNER -->
+	<div class="page-header-inner">
+		<!-- BEGIN LOGO -->
+		<div class="page-logo">
+			<a href="index.html">
+			<img src="img/logo.png" alt="logo" class="logo-default">
+			</a>
+			<div class="menu-toggler sidebar-toggler">
+				<!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
+			</div>
+		</div>
+		<!-- END LOGO -->
+		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+		<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+		</a>
+		<!-- END RESPONSIVE MENU TOGGLER -->
+		<div class="hor-menu hor-menu-light hidden-xs">
+			<ul class="nav navbar-nav">
+				<li class="classic-menu-dropdown">
+					<a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Feria Internacional del Mezcal 2018">
+					<i class="fa fa-briefcase"></i><span class="">
+						<i class="fa fa-angle-right"></i>
+					</span>
+					</a>
+					<span class="selected">
+				</span>
+				</li>
+				<li class="classic-menu-dropdown active">
+					<a href="index.html" data-toggle="tooltip" data-placement="bottom" title="adsfdsfshdsafjdsalfdsajfñlkasjfdaldsflj">
+					adsfds...<span class="selected">
+					</span>
+					<i class="fa fa-angle-right"></i>
+
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- BEGIN TOP NAVIGATION MENU -->
+		<div class="top-menu">
+			<ul class="nav navbar-nav pull-right">
+				<!-- BEGIN NOTIFICATION DROPDOWN -->
+				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+				<li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
+					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<i class="icon-bell"></i>
+					<span class="badge badge-default">
+					7 </span>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="external">
+							<h3><span class="bold">12 pending</span> notifications</h3>
+							<a href="extra_profile.html">view all</a>
+						</li>
+						<li>
+							<ul class="dropdown-menu-list scroller" style="height: 250px;" data-handle-color="#637283">
+								<li>
+									<a href="javascript:;">
+									<span class="time">just now</span>
+									<span class="details">
+									<span class="label label-sm label-icon label-success">
+									<i class="fa fa-plus"></i>
+									</span>
+									New user registered. </span>
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<!-- END NOTIFICATION DROPDOWN -->
+				<!-- BEGIN USER LOGIN DROPDOWN -->
+				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+				<li class="dropdown dropdown-user">
+					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<img alt="" class="img-circle" src="img/ruben.jpg"/>
+					<span class="username username-hide-on-mobile">
+						<strong>Ruben Tirado </strong>
+					</span>
+					<span class="username username-hide-on-mobile">administrador</span>
+					<i class="fa fa-angle-down"></i>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-default">
+						<li>
+							<a href="extra_profile.html">
+							<i class="icon-user"></i> My Profile </a>
+						</li>
+					</ul>
+				</li>
+				<!-- END USER LOGIN DROPDOWN -->
+				<!-- BEGIN QUICK SIDEBAR TOGGLER -->
+				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+				<li class="dropdown dropdown-quick-sidebar-toggler">
+					<a href="javascript:;" class="dropdown-toggle">
+					<i class="icon-arrow-left"></i>
+					</a>
+				</li>
+				<!-- END QUICK SIDEBAR TOGGLER -->
+			</ul>
+		</div>
+		<!-- END TOP NAVIGATION MENU -->
+	</div>
+	<!-- END HEADER INNER -->
+</div>
+<!-- END HEADER -->
+<div class="clearfix"></div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+	<!-- BEGIN SIDEBAR -->
+	<div class="page-sidebar-wrapper">
+		<!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+		<!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+		<div class="page-sidebar navbar-collapse collapse">
+			
+			<ul class="page-sidebar-menu page-sidebar-menu-light " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+				<!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
+				<li class="sidebar-toggler-wrapper">
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+
+					<!-- END SIDEBAR TOGGLER BUTTON -->
+				</li>
+				<!-- DOC: To remove the search box from the sidebar you just need to completely remove the below "sidebar-search-wrapper" LI element -->
+				<li class="start ">
+					<a href="index.html">
+					<i class="icon-home"></i>
+					<span class="title">Inicio</span>
+					</a>
+				</li>
+
+				<li class="start active">
+					<a href="javascript:;">
+					<i class="icon-briefcase"></i>
+					<span class="title">Proyectos
+						<span class="badge badge-success">7</span>
+					</span>
+					<span class="badge badge-gaci"><button class="btn btn-success btn-circle btn-xs" role="link" onclick="window.location.href('inicio.html');"><i class="fa fa-plus"></i></button></span>
+					<span class="arrow "></span>
+					</a>
+
+					<ul class="sub-menu" id="ulproyectos">
+						<li>
+							<a href="#">
+							Proyecto 1</a>
+						</li>
+						<li>
+							<a href="#">
+							proyecto 2</a>
+						</li>
+						<li>
+							<a href="#">
+							proyecto 3</a>
+						</li>
+						<li>
+							<a href="#">
+							proyecto 4</a>
+						</li>
+						<li>
+							<a href="#">
+							proyecto 5</a>
+						</li>
+						<li>
+							<a href="#">
+							proyecto 6</a>
+						</li>
+						<li>
+							<a href="#">
+							proyecto 7</a>
+						</li>
+						<li>
+							<a href="#" id="vermasP" style="background-color: #1caf9a17;" >ver mas<i class="fa fa-chevron-down"></i></a>
+						</li>
+					</ul>
+					<span class="selected"></span>
+
+				</li>
+				<li class="start ">
+					<a href="javascript:;">
+					<i class="icon-folder"></i>
+					<span class="title">Actividades</span>
+						<span class="badge badge-gaci"><button class="btn btn-success btn-circle btn-xs"><i class="fa fa-plus"></i></button></span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="#">
+							Proyecto 1</a>
+						<li>
+						<li>
+							<a href="#">
+							proyecto 3</a>
+						</li>
+						<li>
+							<a href="#">
+							proyecto 3</a>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="javascript:;">
+					<i class="icon-users"></i>
+					<span class="title">Participantes</span>
+						<span class="badge badge-gaci"><button onclick="window.location.href='chat_'"  class="btn btn-success btn-circle btn-xs"><i class="fa fa-plus"></i></button></span>
+
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="javascript:;">
+							<img alt="" class="img-circle img-perfil" src="img/ruben.jpg">
+							 Ruben Tirado <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="#"><i class="icon-user"></i>Ver Perfil</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;">
+							<img alt="" class="img-circle img-perfil" src="img/ruben.jpg">
+							 Ruben Tirado <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="#"><i class="icon-user"></i>Ver Perfil</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<!-- END SIDEBAR MENU -->
+		</div>
+	</div>
+	<!-- END SIDEBAR -->
+	<!-- BEGIN CONTENT -->
+	<div class="page-content-wrapper">
+		<div class="page-content">
+			<!-- BEGIN PAGE CONTENT-->
+			<div class="row no-desbordar">
+				<div class="col-md-12 ">
+					<div id="zona-mensajes" class="div-scroller">
+						<!-- BEGIN PORTLET-->
+						<div id="zona-mensajes-c" class="portlet light ">
+							<div class="portlet-title">
+								<div class="caption">
+									<h3 class="font-red-sunglo bold uppercase">Feria Internacional del Mezcal 2019</h3>
+									<p class="body">
+										La Feria Internacional del Mezcal Oaxaca , con el objetivo de promocionar, difundir
+										 y posicionar a esta bebida a base de maguey, así como exponer las marcas de mezcal del Estado.
+									</p>
+
+								</div>
+								<div class="caption">
+									<i class="icon-user font-purple-plum"></i>
+									<span class="caption-subject font-purple-plum ">Creado por:</span>
+									<span class="caption-helper">Miguel Eduardo Chavez Perez</span>
+									<span class="caption-helper">10:15AM 20 Oct 2018</span>
+								</div>
+							</div>
+							<div class="portlet-body" id="chats">
+									<ul class="chats">
+										<li class="in">
+											<img class="avatar" alt="" src="img/manuel.jpg"/>
+											<div class="message">
+												<span class="arrow">
+												</span>
+												<a href="javascript:;" class="name">
+												Manuel Del villar</a>
+												<span class="color-gris">
+												5:20 pm - 21.10.2018 </span>
+												<span class="body letras">
+												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+												<a href="javascript:;" class="btn-xs btn-gaci">
+															Responder<i class="fa fa-reply"></i>
+												</a>
+												<a href="#" class="btn-resp-msg btn-xs btn-gaci " >3 respuestas<i class="fa fa-level-down"></i>
+												</a>
+												<a href="javascript:;" class="btn-ocul-msg hide btn-xs btn-gaci" id="btn-ocul-msg">
+															ocultar<i class="fa fa-level-up"></i>
+												</a>
+											</div>
+											<ul class="" id="resp-msg ">
+												<li class="in respuesta hide">
+													<img class="avatar img-perfil-respuesta" alt="" src="img/manuel.jpg"/>
+													<div class="message">
+														<span class="arrow">
+														</span>
+														<a href="javascript:;" class="name">
+														Manuel Del villar</a>
+														<span class="color-gris">
+														5:20 pm - 21.10.2018 </span>
+														<span class="body letras">
+															Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+														 	nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+														 	volutpat.
+														</span>
+													</div>
+												</li>
+												<li class="in respuesta hide">
+													<img class="avatar img-perfil-respuesta" alt="" src="img/manuel.jpg"/>
+													<div class="message">
+														<span class="arrow">
+														</span>
+														<a href="javascript:;" class="name">
+														Manuel Del villar</a>
+														<span class="color-gris">
+														5:20 pm - 21.10.2018 </span>
+														<span class="body letras">
+															Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+															nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+															volutpat.
+														</span>
+													</div>
+												</li>
+												<li class="in respuesta hide">
+													<img class="avatar img-perfil-respuesta" alt="" src="img/manuel.jpg"/>
+													<div class="message">
+														<span class="arrow">
+														</span>
+														<a href="javascript:;" class="name">
+														Manuel Del villar</a>
+														<span class="color-gris">
+														5:20 pm - 21.10.2018 </span>
+														<span class="body letras">
+															Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+														 	nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+														 	volutpat.
+														</span>
+													</div>
+												</li>
+											</ul>
+										</li>
+										<li class="in">
+											<img class="avatar" alt="" src="img/manuel.jpg"/>
+											<div class="message">
+												<span class="arrow">
+												</span>
+												<a href="javascript:;" class="name">
+												Manuel Del villar</a>
+												<span class="color-gris">
+												5:20 pm - 21.10.2018 </span>
+												<span class="body letras">
+												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+												<a href="javascript:;" class="btn-xs btn-gaci">
+															Responder<i class="fa fa-reply"></i>
+												</a>
+												<a href="#" class="btn-resp-msg btn-xs btn-gaci " >3 respuestas<i class="fa fa-level-down"></i>
+												</a>
+												<a href="javascript:;" class="btn-ocul-msg hide btn-xs btn-gaci" id="btn-ocul-msg">
+															ocultar<i class="fa fa-level-up"></i>
+												</a>
+											</div>
+											<ul class="" id="resp-msg ">
+												<li class="in respuesta hide">
+													<img class="avatar img-perfil-respuesta" alt="" src="img/manuel.jpg"/>
+													<div class="message">
+														<span class="arrow">
+														</span>
+														<a href="javascript:;" class="name">
+														Manuel Del villar</a>
+														<span class="color-gris">
+														5:20 pm - 21.10.2018 </span>
+														<span class="body letras">
+															Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+														 	nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+														 	volutpat.
+														</span>
+													</div>
+												</li>
+												<li class="in respuesta hide">
+													<img class="avatar img-perfil-respuesta" alt="" src="img/manuel.jpg"/>
+													<div class="message">
+														<span class="arrow">
+														</span>
+														<a href="javascript:;" class="name">
+														Manuel Del villar</a>
+														<span class="color-gris">
+														5:20 pm - 21.10.2018 </span>
+														<span class="body letras">
+															Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+															nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+															volutpat.
+														</span>
+													</div>
+												</li>
+												<li class="in respuesta hide">
+													<img class="avatar img-perfil-respuesta" alt="" src="img/manuel.jpg"/>
+													<div class="message">
+														<span class="arrow">
+														</span>
+														<a href="javascript:;" class="name">
+														Manuel Del villar</a>
+														<span class="color-gris">
+														5:20 pm - 21.10.2018 </span>
+														<span class="body letras">
+															Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+														 	nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+														 	volutpat.
+														</span>
+													</div>
+												</li>
+											</ul>
+										</li>
+										<li class="in">
+											<img class="avatar" alt="" src="img/manuel.jpg"/>
+											<div class="message">
+												<span class="arrow">
+												</span>
+												<a href="javascript:;" class="name">
+												Manuel Del villar</a>
+												<span class="color-gris">
+												5:20 pm - 21.10.2018 </span>
+												<span class="body letras">
+												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+												<a href="javascript:;" class="btn-xs btn-gaci">
+															Responder<i class="fa fa-reply"></i>
+												</a>
+												<a href="#" class="btn-resp-msg btn-xs btn-gaci " >3 respuestas<i class="fa fa-level-down"></i>
+												</a>
+												<a href="javascript:;" class="btn-ocul-msg hide btn-xs btn-gaci" id="btn-ocul-msg">
+															ocultar<i class="fa fa-level-up"></i>
+												</a>
+											</div>
+										</li>
+									</ul>
+							</div>
+						</div>
+						<!-- END PORTLET-->
+
+					</div>
+					<div class="sidebar-bottom" id="zona-escribir">
+
+							<div>
+							<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+								<span class="btn btn-sm btn-white fileinput-button">
+									<i class="fa fa-cloud-upload"></i>
+									<input type="file" name="files[]" multiple="">
+								</span>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+            		<a class="btn btn-sm btn-white"><i class="fa fa-file-excel-o"></i></a>
+            		<a class="btn btn-sm btn-white"><i class="fa fa-picture-o"></i></a>
+            		<a class="btn btn-sm btn-white"><i class="fa fa-microphone"></i></a>
+							</div>
+							<div class="col-md-11 col-xs-10  col-sm-11 col-lg-11 ">
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows=""></textarea>
+							</div>
+							<div class="col-md-1 col-xs-1 col-sm-1">
+								<a class="btn btn-small btn-white"><i class="fa fa-send"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END PAGE CONTENT-->
+		</div>
+	</div>
+	<!-- END CONTENT -->
+</div>
+<!-- END CONTAINER -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+				<form enctype="multipart/form-data">
+						<hr>
+						<div class="form-group">
+								<div class="file-loading">
+										<input id="file-5" class="file" type="file" multiple data-preview-file-type="any" data-upload-url="#" data-theme="fas">
+								</div>
+						</div>
+				</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="../../assets/global/plugins/respond.min.js"></script>
+<script src="../../assets/global/plugins/excanvas.min.js"></script>
+<![endif]-->
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery-migrate.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="js/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="js/bootstrap/js/bootstrap.min.js" type="text/javascript"></script><!--no lo encontre-->
+<script src="js/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="js/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="js/jquery.blockui.min.js" type="text/javascript"></script>
+
+<!-- END CORE PLUGINS -->
+<script src="js/metronic.js" type="text/javascript"></script>
+<script src="js/layout.js" type="text/javascript"></script>
+<script src="js/quick-sidebar.js" type="text/javascript"></script>
+<script src="js/demo.js" type="text/javascript"></script>
+
+<script src="js/gaci.js" type="text/javascript"></script>
+<script src="js/plugins/fileinput/fileinput.js" type="text/javascript"></script>
+<script src="js/plugins/fileinput/theme.js" type="text/javascript"></script>
+<script>
+      jQuery(document).ready(function() {
+         Metronic.init(); // init metronic core components
+Layout.init(); // init current layout
+QuickSidebar.init(); // init quick sidebar
+//Demo.init(); // init demo features
+
+      });
+   </script>
+
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
